@@ -46,7 +46,7 @@ public class GradesApp {
             System.out.println("Very Good");
         } else if (average >= 5) {
             System.out.println("Good");
-        } else  { // Υπονοειται average < 5
+        }else  { // Υπονοειται average < 5
             System.out.println("Failure");
         }
     }
