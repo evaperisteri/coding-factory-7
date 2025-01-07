@@ -17,8 +17,7 @@ public class Order {
 
     }
 
-    public Order(int id, String uuid, double amount, String description, String state,
-                 LocalDateTime timestamp, String formattedTimeStamp) {
+    public Order(int id, double amount, String description, String state) {
         this.id = id;
         this.uuid = UUID.randomUUID().toString();
         this.amount = amount;
