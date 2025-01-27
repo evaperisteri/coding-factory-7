@@ -54,7 +54,7 @@ public class MobileContactDaoImpl implements IMobileContactDAO{
     public boolean phoneNumberExists(String phoneNumber) {
         return false;
     }
-    //επιστρεφει τη θεση του πινακα/τησ λιστας στην οποια βρησκεται η επαφή αλλιώς -1
+    //επιστρεφει τη θεση του πινακα/τησ λιστας στην οποια βρισκεται η επαφή αλλιώς -1
     private int getIndexById(Long id) {
         int positionToReturn = -1;
 
