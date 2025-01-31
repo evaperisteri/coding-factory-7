@@ -6,7 +6,7 @@ import java.util.Scanner;
  * αποφαίνεται αν
  * ένα έτος είναι δίσεκτο ή όχι
  */
-public class ExcersizeFirst {
+public class ExerciseFirst {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputYear = 0;

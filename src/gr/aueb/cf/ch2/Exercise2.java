@@ -9,7 +9,7 @@ import java.util.Scanner;
  * και την εμφανίζει σε μορφή:
  *  ΗΗ/ΜΜ/ΕΕ
  */
-public class AskisiDeuteri {
+public class Exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputYear = 0;

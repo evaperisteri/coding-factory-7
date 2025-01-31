@@ -9,7 +9,7 @@ import java.util.Scanner;
  * εμφανίζεται feedback
  * αν ο χρήστης δώσει αριθμό < 0 ή > 5 βγαινει κατάλληλο μήνυμα.
  */
-public class ExcersizeSecond {
+public class ExerciseSecond {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;

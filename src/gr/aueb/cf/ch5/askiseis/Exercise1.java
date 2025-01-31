@@ -1,8 +1,8 @@
-package gr.aueb.cf.ch5;
+package gr.aueb.cf.ch5.askiseis;
 
 import java.util.Scanner;
 
-public class Excersize1 {
+public class Exercise1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

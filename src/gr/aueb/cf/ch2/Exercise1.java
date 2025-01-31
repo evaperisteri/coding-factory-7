@@ -6,7 +6,7 @@ import java.util.Scanner;
  * μετατρέπει ακέραιες θερμοκρασίες Φαρενάιτ
  * (Fahrenheit) στην κλίμακα Κελσίου.
  */
-public class AskisiProti {
+public class Exercise1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int tempF = 0;
