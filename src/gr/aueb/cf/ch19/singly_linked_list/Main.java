@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
         SingleList<Integer> list = new SingleList<>();
 
-        list.insertLAst(1);
+        list.insertLast(1);
         list.insertFirst(2);
-        list.insertLAst(3);
-        list.insertLAst(4);
-        list.insertLAst(5);
-        list.insertLAst(6);
+        list.insertLast(3);
+        list.insertLast(4);
+        list.insertLast(5);
+        list.insertLast(6);
 
         Node <Integer> numNode = list.removeLast();
         int num = numNode.getItem();

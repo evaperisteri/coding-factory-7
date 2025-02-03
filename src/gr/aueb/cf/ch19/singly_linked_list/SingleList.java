@@ -16,7 +16,7 @@ public class SingleList <T>{
         head = tmp;
     }
 
-    public void insertLAst (T t) {
+    public void insertLast(T t) {
         Node<T> tmp = new Node<>();
         tmp.setItem(t);
         tmp.setNext(null);
